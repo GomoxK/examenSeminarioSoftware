@@ -1,0 +1,21 @@
+{
+  "name": "examenseminariosoftware",
+  "version": "1.0.0",
+  "description": "Examen Primer Parcial",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1" , 
+    "start": "node ./index.js" 
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GomoxK/examenSeminarioSoftware.git"
+  },
+  "author": "Kevin Zamora",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GomoxK/examenSeminarioSoftware/issues"
+  },
+  "homepage": "https://github.com/GomoxK/examenSeminarioSoftware#readme"
+}
