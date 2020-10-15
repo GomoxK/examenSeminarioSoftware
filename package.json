@@ -4,9 +4,8 @@
   "description": "Examen Primer Parcial",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1" , 
-    "start": "node ./index.js" 
-    
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./index.js"
   },
   "repository": {
     "type": "git",
@@ -17,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/GomoxK/examenSeminarioSoftware/issues"
   },
-  "homepage": "https://github.com/GomoxK/examenSeminarioSoftware#readme"
+  "homepage": "https://github.com/GomoxK/examenSeminarioSoftware#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
