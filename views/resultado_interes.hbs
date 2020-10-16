@@ -1,0 +1,29 @@
+<h1 class="mt-3">Tabla de retorno del Interes Compuesto</h1>
+
+{{#if cuotas}}
+<table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">Periodo</th>
+      <th scope="col">Deposito</th>
+      <th scope="col">Interés</th>
+      <th scope="col">Saldo final</th>
+     
+    </tr>
+  </thead>
+  <tbody>
+    {{#each cuotas}}
+    <tr>
+    <th scope="row">{{mes}}</th>
+     <th scope="row">{{capital}}</th>
+      <th scope="row">{{interes}}</th>
+      <th scope="row">{{capitalAmortizar}}</th>
+      
+     
+    </tr>
+    {{/each}}
+  </tbody>
+</table>
+
+<button type="button" class="btn btn-primary" onclick="history.back();">Regresar</button>
+{{/if}}
